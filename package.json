@@ -1,0 +1,27 @@
+{
+  "name": "metricstream",
+  "description": "passthrough to measure stream metrics",
+  "version": "0.0.0",
+  "dependencies": {},
+  "scripts": {
+    "lint": "./node_modules/.bin/jshint .",
+    "pretest": "npm run-script lint",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha test",
+    "posttest": "./node_modules/.bin/istanbul check-coverage && rm -rf coverage",
+    "prepublish": "npm test && npm prune"
+  },
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org"
+  },
+  "author": "Stephen Wan <stephen@stephenwan.net>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.18.2",
+    "istanbul": "^0.2.7",
+    "jshint": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:stephen/metricstream.git"
+  }
+}
