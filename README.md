@@ -15,3 +15,8 @@ See ```examples/example.js```
 
 ## Credits
 [Stephen Wan](https://github.com/stephen/)
+
+## Changelog
+
+##### 0.0.1
+- Initial implementation w/ recording + stats
