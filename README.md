@@ -18,5 +18,8 @@ See ```examples/example.js```
 
 ## Changelog
 
+##### 0.0.2
+- Added sampling duration to bps/mps measurements
+
 ##### 0.0.1
 - Initial implementation w/ recording + stats
